@@ -1,107 +1,91 @@
-body {
-  background-color: #f7f7f7;
-}
-
-/* this hole page css */
 .main {
-  display: flex;
-  flex-wrap: wrap;
-  height: 100%;
   background-color: #f7f7f7;
-}
-
-/* login Section  */
-.log {
-  width: 50%;
-  height: 100%;
-}
-
-/* logo image in the login section */
-.logo_image {
-  margin: 20px 20px;
-  width: 25%;
-  height: 7%;
-}
-
-/* login section */
-.loginfrom {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  height: 630px;
+  width: 100%;
+  justify-content: center;
 }
 
-.heading {
-  margin-top: 30%;
-  margin-left: 25%;
-  font-weight: 500;
+.imagelogo {
+  width: 20%;
+  margin: 5% 0% 1% 5%;
 }
 
-.enteremial,
-.enterpassword {
-  width: 50%;
-  height: 40px;
+.header {
+  font-weight: 600;
+  margin: 77px 50px 50px 97px;
+}
+
+.emailfrom {
+  border-bottom: 2px solid black;
+  width: 300px;
+  margin-left: 15%;
+}
+.email_image {
+  width: 25px;
+}
+
+.email {
   border: none;
   background-color: #f7f7f7;
-  border-bottom: 2px solid #a3a3a3;
-  margin: 10px 10px;
+  width: 250px;
+  height: 30px;
 }
 
-.forget {
-  margin-left: 35%;
-  font-size: 75%;
-  color: #a3a3a3;
+.passwordfrom {
+  border-bottom: 2px solid black;
+  margin-top: 2%;
+  width: 300px;
+  margin-left: 15%;
+}
+.password_image {
+  width: 25px;
+}
+
+.password {
+  border: none;
+  background-color: #f7f7f7;
+  width: 250px;
+  height: 30px;
+}
+
+.forgot_password {
+  margin-left: 42%;
+  font-size: 14px;
+  color: #00000069;
 }
 
 .signup {
-  margin: 1% 10%;
-  width: 50%;
-  height: 40px;
+  width: 48%;
+  height: 50px;
+  margin-left: 15%;
+  font-size: 150%;
   border: none;
-  background-color: #4efb58;
-  border-radius: 10px;
-}
-/* Image Slideing Section */
-.image {
-  width: 50%;
-  height: 100%;
+  background-color: #38ef31;
+  border-radius: 5px;
+  color: white;
 }
 
-/* Responsive  section */
+.image_slideing {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+}
 
-@media (max-width: 600px) {
-  .image {
-    width: 100%;
-    height: 70%;
-    position: absolute;
+.slider {
+  width: 100%;
+  /* margin-left: 30%; */
+  height: 76%;
+  /* margin-top: 10%; */
+}
+
+@media (max-width: 870px) {
+  .main {
+    flex-direction: column;
   }
-  .logo_image {
-    border-radius: 20px;
-  }
-  .log {
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-  }
-  .completelogin {
+  .froms {
     display: flex;
     flex-direction: column;
-    margin-top: 228px;
-  }
-  .heading {
-    color: black;
-    font-size: 40px;
-    /* margin-top: 50%;
-    margin-left: 40%; */
-  }
-
-  .enteremial,
-  .enterpassword {
-    width: 50%;
-    height: 40px;
-    border-radius: 10px;
-    border: none;
-    background-color: #ffffff;
-    border-bottom: 2px solid #a3a3a3;
-    /* margin: 10px 10px; */
+    align-items: center;
   }
 }
