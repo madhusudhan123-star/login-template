@@ -1,0 +1,105 @@
+body {
+  background-color: #f7f7f7;
+}
+
+/* this hole page css */
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  background-color: #f7f7f7;
+}
+
+/* login Section  */
+.log {
+  width: 50%;
+  height: 100%;
+}
+
+/* logo image in the login section */
+.logo_image {
+  margin: 20px 20px;
+  width: 25%;
+  height: 7%;
+}
+
+/* login section */
+.loginfrom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  margin-top: 30%;
+  margin-left: 25%;
+  font-weight: 500;
+}
+
+.enteremial,
+.enterpassword {
+  width: 50%;
+  height: 40px;
+  border: none;
+  background-color: #f7f7f7;
+  border-bottom: 2px solid #a3a3a3;
+  margin: 10px 10px;
+}
+
+.forget {
+  margin-left: 35%;
+  font-size: 75%;
+  color: #a3a3a3;
+}
+
+.signup {
+  margin: 1% 10%;
+  width: 50%;
+  height: 40px;
+  border: none;
+  background-color: #4efb58;
+  border-radius: 10px;
+}
+/* Image Slideing Section */
+.image {
+  width: 50%;
+  height: 100%;
+}
+
+/* Responsive  section */
+
+@media (max-width: 600px) {
+  .image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  .logo_image {
+    border-radius: 20px;
+  }
+  .d-block {
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+  }
+  .log {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+  .heading {
+    color: black;
+    font-size: 40px;
+    margin-top: 50%;
+    margin-left: 40%;
+  }
+  .enteremial,
+  .enterpassword {
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffff;
+    border-bottom: 2px solid #a3a3a3;
+    margin: 10px 10px;
+  }
+}
