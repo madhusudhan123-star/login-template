@@ -82,12 +82,18 @@ body {
     height: 100%;
     z-index: 2;
   }
+  .completelogin {
+    display: flex;
+    flex-direction: column;
+    margin-top: 228px;
+  }
   .heading {
     color: black;
     font-size: 40px;
-    margin-top: 50%;
-    margin-left: 40%;
+    /* margin-top: 50%;
+    margin-left: 40%; */
   }
+
   .enteremial,
   .enterpassword {
     width: 50%;
@@ -96,6 +102,6 @@ body {
     border: none;
     background-color: #ffffff;
     border-bottom: 2px solid #a3a3a3;
-    margin: 10px 10px;
+    /* margin: 10px 10px; */
   }
 }
